@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+
+.App {
+  background-color: #111;
+}
+
+.app__genreContainer {
+  display: flex;
+  flex-direction: column;
+}
