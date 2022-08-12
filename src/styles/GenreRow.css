@@ -1,0 +1,27 @@
+.genrerows__postersContainer {
+  display: flex;
+  gap: 0.7vw;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 0.3vw 0.6vw;
+}
+
+.genrerows__postersContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.genrerows__poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 17rem;
+  outline: none !important;
+  transition: transform 450ms;
+}
+
+.genrerows__poster.large {
+  max-height: 22rem;
+}
+
+.genrerows__poster:hover {
+  transform: scale(1.08);
+}
